@@ -35,5 +35,6 @@ Follow [DATASETS.md](DATASETS.md) to install the datasets.
 ## Generalization From Base to New Classes
 
 ```bash
+cd scripts/
 bash base2new_train.sh
 ```
