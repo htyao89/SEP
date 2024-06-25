@@ -81,7 +81,7 @@ done
 
 CFG=vit_b128_ep10_ctxv1
 
-for DATASET in sun397
+for DATASET in sun397 imagenet
 do
 for SEED in 1 2 3
 do
