@@ -79,6 +79,7 @@ do
 done
 done
 
+CFG=vit_b128_ep10_ctxv1
 
 for DATASET in sun397
 do
