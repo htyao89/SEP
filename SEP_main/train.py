@@ -136,9 +136,9 @@ def setup_cfg(args):
     # 4. From optional input arguments
     cfg.merge_from_list(args.opts)
     
-    if cfg.DATASET.NAME in ["ImageNet","SUN397"]:
-        cfg.OPTIM.MAX_EPOCH=10
-        cfg.DATALOADER.TRAIN_X.BATCH_SIZE=128
+    # if cfg.DATASET.NAME in ["ImageNet","SUN397"]:
+    #    cfg.OPTIM.MAX_EPOCH=10
+    #    cfg.DATALOADER.TRAIN_X.BATCH_SIZE=128
 
 
     cfg.freeze()
