@@ -8,7 +8,7 @@ TRAINER=SEP
 WEIGHT=8.0 # weight of the textual consistency 
 WEIGHT_V=6.0 # weight of the visual consistency
 
-CFG=vit_cross_dataset
+CFG=vit_b32_ep3_ctxv1_cross_dataset
 CTP=end  # class token position (end or middle)
 NCTX=6 # length of textual prompts
 NCTX_V=4 # length of visual prompts
@@ -49,7 +49,7 @@ done
 
 for DATASET in eurosat dtd fgvc_aircraft food101 oxford_flowers oxford_pets stanford_cars ucf101 caltech101 sun397
 do
-LOADEP=5
+LOADEP=3
 for SEED in 1 2 3
 do
     COMMON_DIR_=imagenet/shots_${SHOTS}_${WEIGHT}/${TRAINER}/${CFG}/seed${SEED}
