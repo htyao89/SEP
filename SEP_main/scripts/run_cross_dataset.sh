@@ -15,7 +15,7 @@ NCTX_V=4 # length of visual prompts
 SHOTS=16  # number of shots (1, 2, 4, 8, 16)
 CSC=False  # class-specific context (False or True)
 FOLDER=output
-IND=0
+IND=7
 
 
 for DATASET in imagenet
